@@ -94,11 +94,11 @@
               [matDatepicker]="amcStartDate"
               readonly
               formControlName="amcStartDate"
+              test-id="add_contract.amc_start_date"
             />
             <mat-datepicker-toggle
               matSuffix
               [for]="amcStartDate"
-              test-id="add_contract.amc_start_date"
             ></mat-datepicker-toggle>
             <mat-datepicker #amcStartDate></mat-datepicker>
           </mat-form-field>
@@ -111,12 +111,12 @@
               [matDatepicker]="amcEndDate"
               readonly
               formControlName="amcEndDate"
+              test-id="add_contract.amc_end_date"
               [min]="minEndDate"
             />
             <mat-datepicker-toggle
               matSuffix
               [for]="amcEndDate"
-              test-id="add_contract.amc_end_date"
             ></mat-datepicker-toggle>
             <mat-datepicker #amcEndDate></mat-datepicker>
           </mat-form-field>
